@@ -1,10 +1,10 @@
 venv
 navrh*
 
+logs/
 .env
 
 *pycache*
 
 *egg-info
 
-*xlsx*
