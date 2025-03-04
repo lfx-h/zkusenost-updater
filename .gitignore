@@ -2,3 +2,9 @@ venv
 navrh*
 
 .env
+
+*pycache*
+
+*egg-info
+
+*xlsx*

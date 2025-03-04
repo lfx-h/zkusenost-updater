@@ -1,0 +1,1 @@
+curl -X POST "http://10.0.1.38:8000/tagtitle/" -H "Content-Type: application/json; charset=UTF-8" --data-binary "{\"lng\": \"cs\", \"zkusenost\": \"Během zimního období nepostradatelný pomocník,okamžitě uleví, zprůchodní a zvlhčí dýchací cesty.a přitom neničí nosní sliznici, výborně se aplikuje.\", \"nadpis\": \"\"}"

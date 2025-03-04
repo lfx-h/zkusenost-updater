@@ -1,0 +1,37 @@
+2025-02-09 13:59:58,685 [DEBUG] Using proactor: IocpProactor
+2025-02-09 14:08:08,721 [ERROR] Object of type coroutine is not JSON serializable on data: prodID='123' zkusenost='This is a sample experience description.' nadpis='Sample Title' lng='en'
+2025-02-09 14:08:44,193 [ERROR] Object of type coroutine is not JSON serializable on data: prodID='123' zkusenost='This is a sample experience description.' nadpis='Sample Title' lng='en'
+2025-02-09 14:09:32,594 [ERROR] Object of type coroutine is not JSON serializable on data: prodID='123' zkusenost='This is a sample experience description.' nadpis='Sample Title' lng='en'
+2025-02-09 14:10:29,990 [DEBUG] Using proactor: IocpProactor
+2025-02-09 14:12:08,916 [DEBUG] Using proactor: IocpProactor
+2025-02-09 14:12:11,179 [ERROR] 'Zkusenost' object is not subscriptable on data: prodID='123' zkusenost='This is a sample experience description.' nadpis='Sample Title' lng='en'
+2025-02-09 14:13:22,685 [DEBUG] Using proactor: IocpProactor
+2025-02-09 14:13:30,498 [DEBUG] Using AsyncIOEngine.POLLER as I/O engine
+2025-02-09 14:14:01,229 [DEBUG] Using proactor: IocpProactor
+2025-02-09 14:14:07,495 [DEBUG] Using AsyncIOEngine.POLLER as I/O engine
+2025-03-04 19:24:37,586 [DEBUG] Using proactor: IocpProactor
+2025-03-04 19:31:48,207 [DEBUG] Using proactor: IocpProactor
+2025-03-04 19:31:49,618 [INFO] Raw body: b'{"lng": "cs", "zkusenost": "Behem zimn\xedho obdob\xed nepostradatelny pomocn\xedk,okamzite ulev\xed, zpruchodn\xed a zvlhc\xed dychac\xed cesty.a pritom nenic\xed nosn\xed sliznici, vyborne se aplikuje.", "nadpis": ""}'
+2025-03-04 19:32:59,155 [INFO] Raw body: b'{"lng": "cs", "zkusenost": "Behem zimn\xedho obdob\xed nepostradatelny pomocn\xedk,okamzite ulev\xed, zpruchodn\xed a zvlhc\xed dychac\xed cesty.a pritom nenic\xed nosn\xed sliznici, vyborne se aplikuje.", "nadpis": ""}'
+2025-03-04 19:34:09,511 [INFO] Raw body: b'{"lng": "cs", "zkusenost": "Behem zimn\xedho obdob\xed nepostradatelny pomocn\xedk,okamzite ulev\xed, zpruchodn\xed a zvlhc\xed dychac\xed cesty.a pritom nenic\xed nosn\xed sliznici, vyborne se aplikuje.", "nadpis": ""}'
+2025-03-04 19:34:18,568 [DEBUG] Using proactor: IocpProactor
+2025-03-04 19:34:19,944 [INFO] Raw body: b'{"lng": "cs", "zkusenost": "Behem zimn\xedho obdob\xed nepostradatelny pomocn\xedk,okamzite ulev\xed, zpruchodn\xed a zvlhc\xed dychac\xed cesty.a pritom nenic\xed nosn\xed sliznici, vyborne se aplikuje.", "nadpis": ""}'
+2025-03-04 19:35:37,005 [DEBUG] Using proactor: IocpProactor
+2025-03-04 19:38:02,676 [DEBUG] Using proactor: IocpProactor
+2025-03-04 19:38:38,614 [DEBUG] Using proactor: IocpProactor
+2025-03-04 19:40:13,149 [DEBUG] Using proactor: IocpProactor
+2025-03-04 19:40:14,986 [INFO] Decoded body: b'{"lng": "cs", "zkusenost": "Behem zimn\xedho obdob\xed nepostradatelny pomocn\xedk,okamzite ulev\xed, zpruchodn\xed a zvlhc\xed dychac\xed cesty.a pritom nenic\xed nosn\xed sliznici, vyborne se aplikuje.", "nadpis": ""}'
+2025-03-04 19:43:12,710 [INFO] Decoded body: b'{"zkusenost":"Behem zimn\xc3\x83\xc2\xadho obdob\xc3\x83\xc2\xad nepostradatelny pomocn\xc3\x83\xc2\xadk,okamzite ulev\xc3\x83\xc2\xad, zpruchodn\xc3\x83\xc2\xad a zvlhc\xc3\x83\xc2\xad dychac\xc3\x83\xc2\xad cesty.a pritom nenic\xc3\x83\xc2\xad nosn\xc3\x83\xc2\xad sliznici, vyborne se aplikuje.","lng":"cs","nadpis":""}'
+2025-03-04 19:43:40,284 [DEBUG] Using proactor: IocpProactor
+2025-03-04 19:43:56,181 [INFO] Raw body: b'{"zkusenost":"Behem zimn\xc3\x83\xc2\xadho obdob\xc3\x83\xc2\xad nepostradatelny pomocn\xc3\x83\xc2\xadk,okamzite ulev\xc3\x83\xc2\xad, zpruchodn\xc3\x83\xc2\xad a zvlhc\xc3\x83\xc2\xad dychac\xc3\x83\xc2\xad cesty.a pritom nenic\xc3\x83\xc2\xad nosn\xc3\x83\xc2\xad sliznici, vyborne se aplikuje.","lng":"cs","nadpis":""}'
+2025-03-04 19:47:12,264 [DEBUG] Using proactor: IocpProactor
+2025-03-04 19:47:19,522 [INFO] Raw body: b'{"lng": "cs", "zkusenost": "Behem zimn\xc3\x83\xc2\xadho obdob\xc3\x83\xc2\xad nepostradatelny pomocn\xc3\x83\xc2\xadk,okamzite ulev\xc3\x83\xc2\xad, zpruchodn\xc3\x83\xc2\xad a zvlhc\xc3\x83\xc2\xad dychac\xc3\x83\xc2\xad cesty.a pritom nenic\xc3\x83\xc2\xad nosn\xc3\x83\xc2\xad sliznici, vyborne se aplikuje.", "nadpis": ""}'
+2025-03-04 19:48:03,047 [DEBUG] Using proactor: IocpProactor
+2025-03-04 19:48:05,664 [INFO] Raw body: {"lng": "cs", "zkusenost": "Behem zimnÃ­ho obdobÃ­ nepostradatelny pomocnÃ­k,okamzite ulevÃ­, zpruchodnÃ­ a zvlhcÃ­ dychacÃ­ cesty.a pritom nenicÃ­ nosnÃ­ sliznici, vyborne se aplikuje.", "nadpis": ""}
+2025-03-04 19:51:20,468 [DEBUG] Using proactor: IocpProactor
+2025-03-04 19:52:00,659 [INFO] Raw body: b'{"lng": "cs", "zkusenost": "B\xc4\x9bhem zimn\xc3\xadho obdob\xc3\xad nepostradateln\xc3\xbd pomocn\xc3\xadk,okam\xc5\xbeit\xc4\x9b ulev\xc3\xad, zpr\xc5\xafchodn\xc3\xad a zvlh\xc4\x8d\xc3\xad d\xc3\xbdchac\xc3\xad cesty.a p\xc5\x99itom neni\xc4\x8d\xc3\xad nosn\xc3\xad sliznici, v\xc3\xbdborn\xc4\x9b se aplikuje.", "nadpis": ""}'
+2025-03-04 19:52:30,292 [DEBUG] Using proactor: IocpProactor
+2025-03-04 19:52:42,100 [INFO] Raw body: {"lng": "cs", "zkusenost": "Během zimního období nepostradatelný pomocník,okamžitě uleví, zprůchodní a zvlhčí dýchací cesty.a přitom neničí nosní sliznici, výborně se aplikuje.", "nadpis": ""}
+2025-03-04 19:54:23,248 [DEBUG] Using proactor: IocpProactor
+2025-03-04 19:54:37,710 [INFO] Raw body: {"lng": "cs", "zkusenost": "Během zimního období nepostradatelný pomocník,okamžitě uleví, zprůchodní a zvlhčí dýchací cesty.a přitom neničí nosní sliznici, výborně se aplikuje.", "nadpis": ""}
+2025-03-04 19:54:41,770 [DEBUG] Using AsyncIOEngine.POLLER as I/O engine
