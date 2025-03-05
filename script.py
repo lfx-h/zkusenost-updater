@@ -44,10 +44,10 @@ def save_progress(ipos, df=None):
         logging.error(f"Failed to save progress! {e}")
 
 # Main processing function
+df = pd.read_excel(DATA_FILE)
+df_updated = df.copy()
 async def process_data():
-    df = pd.read_excel(DATA_FILE)
     product_df = prepare_product_df(pd.read_excel(PRODUCT_FILE))
-    df_updated = df.copy()
 
     ipos = load_progress()
     last_successful_index = ipos  # Track last successful iteration
@@ -104,5 +104,6 @@ if __name__ == "__main__":
     except Exception as e:
         logging.error(f"Unexpected script failure: {e}\n{traceback.format_exc()}")
         sys.exit(1)  # Ensure it exits with an error code
-
+    logging.info("Saving file...")
+    df_updated.to_excel(OUTPUT_FILE, index=False)
     input("Press Enter to exit...")
