@@ -32,9 +32,11 @@ def load_progress():
     return 0  # Default start index
 
 # Save progress **only if the Excel file was successfully written**
-def save_progress(df, ipos):
+def save_progress(ipos, df=None):
     try:
-        df.to_excel(OUTPUT_FILE, index=False)
+        if df:
+            logging.info("Saving the excel file.")
+            df.to_excel(OUTPUT_FILE, index=False)
         with open(PROGRESS_FILE, "w") as f:
             f.write(str(ipos))
         logging.info(f"Progress saved successfully at index {ipos}.")
@@ -67,9 +69,10 @@ async def process_data():
 
                 res['prodID'] = ", ".join(unique_prod_ids)
                 df_updated.loc[index, ['prodID', 'nadpis', 'tagy']] = [res['prodID'], res['nadpis'], res['tagy']]
+                logging.info(res)
 
                 # Save progress only **after** Excel file was saved
-                save_progress(df_updated, index)
+                save_progress(index)
 
             except Exception as e:
                 logging.error(f"Error: {e} - Retrying in 60 seconds...")
