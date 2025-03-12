@@ -2,8 +2,6 @@ from fastapi import FastAPI, File, UploadFile, HTTPException, Depends, Query, Bo
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 from typing import Optional
-import uuid
-import os
 import json
 import pandas as pd
 
@@ -43,15 +41,14 @@ class API:
             decoded_body = raw_body.decode("utf-8")
             logging.info(f"Raw body: {decoded_body}")
             data = json.loads(decoded_body)  # Parse JSON explicitly
-            id = str(uuid.uuid4())
             try:        
                 result = await agent(data)
                 result_final = await product_agent(result, product_df)
                 
-                return JSONResponse(content={"result": result_final, "id": id})
+                return JSONResponse(content= result_final )
             except Exception as e:
                 logging.error(f"{e} on data: {data} - saving without tags")
-                return JSONResponse(content={"result": data, "id": id})
+                return JSONResponse(content=raw_body)
             
         @self.app.post("/search/")
         async def search(query: str):
